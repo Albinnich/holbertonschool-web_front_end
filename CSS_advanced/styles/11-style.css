@@ -35,12 +35,16 @@ html {
 }
 
 
-.section-tagline,
-.card-category {
+.section-tagline {
 	color: var(--color-primary);
 	color:#D73953;
 	font-family: var(--font-family-title);
 	font-weight: bold;
+}
+
+.card-category {
+	color: var(--color-primary);
+	color:#D73953
 }
 
 body,
