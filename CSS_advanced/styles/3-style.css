@@ -4,15 +4,12 @@
 	--color-white: #ffffff;
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #353535;
-	--text-color: color-black;
+	--text-color: var(--color-black);
 }
 
-section-tagline {
-	--color: color-primary;
-}
-
-card-category {
-	--color: color-primary;
+.section-tagline,
+.card-category {
+	color: var(--color-primary);
 }
 
 body,
