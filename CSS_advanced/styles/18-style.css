@@ -377,12 +377,12 @@ template {
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
-	--nav-item-font-family: var(--font-family-title);
-	--nav-item-font-weight: var(--font-weight-bold);
-	--nav-item-font-size: var(--font-size-medium);
-	--nav-item-letter-spacing: 0.4rem;
+	--nav-item-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--nav-item-font-weight: 700;
+	--nav-item-font-size: 1.6rem;
+	--nav-item-letter-spacing: 4%;
 	--nav-item-display: inline-block;
-	--nav-item-margin: 3rem 0 0 0;
+	--nav-item-margin: 0 0 calc(var(--font-size-medium) * 3) 0;
 	--nav-item-link-hover: var(--color-primary);
 }
 
@@ -506,11 +506,11 @@ a:active {
 	margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav .nav-item .nav-link {
 	display: block;
-	padding: calc(0.5rem) clc(1rem);
+	padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 
-.nav .nav-link:hover {
+.nav .nav-item .nav-link:hover {
 	color: var(--nav-item-link-hover);
 }
