@@ -508,9 +508,10 @@ a:active {
 
 .nav .nav-link {
 	display: block;
-	padding: calc(0.5rem) calc(1rem);
+	padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
+	color: var(--text-color);
 }
 
 .nav .nav-link:hover {
-	color: var(--nav-item-link-hover);
+	color: var(--nav-item-link-hover, var(--color-primary));
 }
