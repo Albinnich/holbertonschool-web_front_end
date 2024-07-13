@@ -377,10 +377,10 @@ template {
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
 	--footer-padding: 5rem 0 1rem;
-	--nav-item-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	--nav-item-font-weight: 700;
-	--nav-item-font-size: 1.6rem;
-	--nav-item-letter-spacing: 4%;
+	--nav-item-font-family: font-family-title;
+	--nav-item-font-weight: font-weight-bold;
+	--nav-item-font-size: font-size-medium;
+	--nav-item-letter-spacing: 0.4rem;
 	--nav-item-display: inline-block;
 	--nav-item-margin: 0 0 calc(var(--font-size-medium) * 3) 0;
 	--nav-item-link-hover: var(--color-primary);
